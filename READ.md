@@ -101,3 +101,12 @@ Hatalı:
 -Güvenlik → security
 
 -HTTP katmanı → main
+
+
+## Canlı API
+
+Base URL:
+https://apicase-1.onrender.com/
+
+Swagger:
+https://apicase-1.onrender.com/docs
