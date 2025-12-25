@@ -1,9 +1,9 @@
-Backend Web API Case – FastAPI
+## Backend Web API Case – FastAPI
 
 Bu proje, bir teknik case kapsamında geliştirilmiş basit bir Backend Web API uygulamasıdır.
 Kullanıcı kayıt ve giriş işlemlerini güvenli şekilde gerçekleştirmeyi amaçlar.
 
-🚀 Kullanılan Teknolojiler
+## 🚀 Kullanılan Teknolojiler
 
 -Python 3.11
 
@@ -17,7 +17,7 @@ Kullanıcı kayıt ve giriş işlemlerini güvenli şekilde gerçekleştirmeyi a
 
 -Passlib + bcrypt
 
-📁 Proje Yapısı
+## 📁 Proje Yapısı
 
 app/
 
@@ -33,7 +33,7 @@ app/
 
 ├── security.py   # Şifre hash & doğrulama
 
-⚙️ Kurulum
+## ⚙️ Kurulum
 
 pip install -r requirements.txt
 uvicorn app.main:app --reload
@@ -43,13 +43,13 @@ Swagger:
 
 http://127.0.0.1:8000/docs
 
-🔐 Ortam Değişkenleri
+## 🔐 Ortam Değişkenleri
 
 .env dosyası:
 
 DATABASE_URL=postgresql+psycopg2://<user>:<password>@<host>/<database>?sslmode=require
 
-📌 API Endpoint’leri
+## 📌 API Endpoint’leri
 
 -Kullanıcı Kayıt
 
@@ -84,7 +84,7 @@ Hatalı:
   "detail": "Invalid email or password"
 }
 
-🔒 Güvenlik
+## 🔒 Güvenlik
 
 -Şifreler plain text olarak saklanmaz
 
@@ -92,7 +92,7 @@ Hatalı:
 
 -Login sırasında hash doğrulaması yapılır
 
-🧠 Mimari
+## 🧠 Mimari
 
 -Validation → schemas
 
